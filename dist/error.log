@@ -1,0 +1,30 @@
+ERROR:root:
+
+
+dotenv_path = Z:\Programming\Python\ПП\Project\TelegramBot\dist\.env
+
+
+Z:\Programming\Python\ПП\Project\TelegramBot\dist
+
+
+NoneType: None
+ERROR:root:
+
+API_TOKEN
+lib = 
+apitoken = 
+Произошла ошибка: 'iamToken'
+Traceback (most recent call last):
+  File "Generators.py", line 26, in <module>
+  File "yandexgptlite\yandexgptlite.py", line 6, in __init__
+  File "yandexgptlite\yandexgptlite.py", line 13, in generate_iamtoken
+KeyError: 'iamToken'
+ERROR:root:Произошла ошибка: Token is invalid!
+Traceback (most recent call last):
+  File "run.py", line 30, in <module>
+  File "asyncio\runners.py", line 44, in run
+  File "asyncio\base_events.py", line 646, in run_until_complete
+  File "run.py", line 18, in main
+  File "aiogram\client\bot.py", line 268, in __init__
+  File "aiogram\utils\token.py", line 27, in validate_token
+aiogram.utils.token.TokenValidationError: Token is invalid!
